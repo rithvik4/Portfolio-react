@@ -2,58 +2,58 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, 
+  isSplash: false,
 };
 
 //Home Page
 const greeting = {
-  title: "Dantu Sai Kamal",
-  logo_name: "Dantusaikamal",
-  nickname: "Sai Kamal",
+  title: "Bura Rithvik Kumar",
+  logo_name: "Rithvik Kumar Bura",
+  nickname: "Rithvik Kumar",
   subTitle:
-    "Hi, I'm Sai kamal, a Full Stack Developer 🚀 from Hyderabad, India. I'm currently an undergraduate student contributing to various open-sourced projects and working on quite a few personal projects.",
+    "Hi, I'm Rithvik Kumar, a Full Stack Developer 🚀 from Hyderabad, India. I'm currently working as a developer at KopenSoft Solutions, contributing to various projects and working on quite a few personal projects.",
   resumeLink:
     "https://drive.google.com/file/d/1A_ou2CMzGRgLUwI5jz2onjcF_GsKHYtG/view?usp=sharing",
-  portfolio_repository: "https://github.com/Dantusaikamal/Portfolio-react",
+  portfolio_repository: "https://github.com/rithvik4/Portfolio-react",
 };
 
 const socialMediaLinks = [
-  //  Your Social Media Link, 
-  //  github: "https://github.com/Dantusaikamal/",
+  //  Your Social Media Link,
+  //  github: "https://github.com/rithvik4/",
   //  linkedin: "https://www.linkedin.com/in/dantu-sai-kamal/",
-  //  gmail: "dantusaikamal@gmail.com",
-  //  twitter: "https://twitter.com/saikamaldantu/",
-  //  instagram: "https://www.instagram.com/sai_kamal7/"
+  //  gmail: "bura.rithvik@gmail.com",
+  //  twitter: "https://twitter.com/burarithvikkumar/",
+  //  instagram: "https://www.instagram.com/rithvikkk__/"
 
   {
     name: "Github",
-    link: "https://github.com/dantusaikamal/",
+    link: "https://github.com/rithvik4/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/dantu-sai-kamal/",
+    link: "https://www.linkedin.com/in/bura-rithvik-kumar/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
 
   {
     name: "Gmail",
-    link: "mailto:dantusaikamal@gmail.com",
+    link: "mailto:bura.rithvik@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/saikamaldantu/",
+    link: "https://twitter.com/burarithvikkumar/",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  
+
   {
     name: "Instagram",
-    link: "https://www.instagram.com/sai_kamal7/",
+    link: "https://www.instagram.com/rithvikkk__/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -292,7 +292,6 @@ const competitiveSites = {
     //   },
     //   profileLink: "https://www.codechef.com/users/dantusaikamal",
     // },
-    
     // {
     //   siteName: "Kaggle",
     //   iconifyClassname: "simple-icons:kaggle",
@@ -311,7 +310,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science Engineering",
       logo_path: "biet_logo.png",
       alt_name: "BIET HYD",
-      duration: "2019 - 2023 (Pursuing)",
+      duration: "2019 - 2023",
       descriptions: [
         "⚡ I took various software engineering courses like Machine Learning, Data Structures, Algorithms, Computer Networks, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
@@ -334,7 +333,7 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/verify/LXK5GKA5USDE",
       alt_name: "Deep Learning",
       color_code: "#D83B0199",
-    }, 
+    },
     {
       title: "Structuring Machine Learning Projects",
       subtitle: "- Andrew Ng",
@@ -380,7 +379,7 @@ const certifications = {
         "https://coursera.org/share/14adc28b47253bdcf02f77800194fd61",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
-    },    
+    },
     {
       title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
       subtitle: "- The Hong Kong University of Science and Technology",
@@ -400,7 +399,7 @@ const certifications = {
       color_code: "#0C9D5899",
     },
 
-       {
+    {
       title: "Programming for Web with JavaScript",
       subtitle: "- Chris Murphy",
       logo_path: "penn_logo.png",
@@ -409,7 +408,6 @@ const certifications = {
       alt_name: "edX",
       color_code: "#FFBB0099",
     },
-
   ],
 };
 
@@ -418,37 +416,24 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have completed various Internships in the field of Full Stack Development that gave me industry exposure on both Front End and Back End development. Apart from Developing Web and Mobile applications, I love teaching and writing about Tech. Hence I actively contribute to Open Source Communities.",
+    "I am currently working as a Full Stack Developer at KopenSoft Solutions and have completed various Internships in the field of Full Stack Development that gave me industry exposure on both Front End and Back End development. Apart from Developing Web and Mobile applications, I love clicking pictures and writing stuff. Hence I actively contribute to Open Source Communities.",
   header_image_path: "experience.svg",
   sections: [
-    // {
-    //   title: "Work",
-    //   experiences: [
-    //     {
-    //       title: "React Developer",
-    //       company: "",
-    //       company_url: "",
-    //       logo_path: "",
-    //       duration: "June 2020 - PRESENT",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "I am working on so and so project in BIET company",
-    //       color: "#0879bf",
-    //     },
-    //     {
-    //       title: " ML Developer",
-    //       company: "BIET Solutions",
-    //       company_url: "]",
-    //       logo_path: "",
-    //       duration: "May 2020 - Oct 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "",
-    //       color: "#9b1578",
-    //     },
-    //     
-    //   ],
-    // },
+    {
+      title: "Work",
+      experiences: [
+        {
+          title: "Full Stack Developer",
+          company: "Kopensoft Solutions",
+          company_url: "",
+          logo_path: "",
+          duration: "June 2025 - PRESENT",
+          location: "Hyderabad, Telangana",
+          description: "I am working at KopenSoft Solutions",
+          color: "#0879bf",
+        },
+      ],
+    },
     {
       title: "Internships",
       experiences: [
@@ -468,26 +453,25 @@ const experience = {
         },
 
         {
-          title: "Full stack developer Intern",
+          title: "Frontend developer Intern",
           company: "HFIL Technologies Pvt Ltd.",
           company_url: "https://www.hfilabs.com/",
           logo_path: "hfil_logo.png",
           duration: "November 2020 - July 2021",
           location: "Hyderabad, Telangana",
           description: [
-            "• Led the Development team of a Start-up that focuses on Electric vehicle charging stations and smart energy meters.", 
-            "• Built cross platform scalable mobile applications using flutter and deployed the data pipelines on AWS EC2, and Azure instances.", 
-            "• Designed UI wireframes for the applications using Figma and also documentation for the applications.", 
+            "• Led the Development team of a Start-up that focuses on Electric vehicle charging stations and smart energy meters.",
+            "• Built cross platform scalable mobile applications using flutter and deployed the data pipelines on AWS EC2, and Azure instances.",
+            "• Designed UI wireframes for the applications using Figma and also documentation for the applications.",
             "• Effectively managed projects from start to finish.",
-            "• Improved the response time of applications by over 800 milliseconds, using advanced frameworks, data structures, caching mechanismand optimized code in order to reduce the number of queries to the database."
+            "• Improved the response time of applications by over 800 milliseconds, using advanced frameworks, data structures, caching mechanismand optimized code in order to reduce the number of queries to the database.",
           ],
           color: "#ee3c26",
         },
         {
           title: "Web Design and Development Intern",
           company: "The Sparks Foundation",
-          company_url:
-            "https://www.thesparksfoundationsingapore.org/",
+          company_url: "https://www.thesparksfoundationsingapore.org/",
           logo_path: "TSF_logo.png",
           duration: "September 2020 - November 2020",
           location: "Work From Home",
@@ -495,19 +479,6 @@ const experience = {
             " During this Internship, I developed a banking web application in which we can transfer amount from one user to another without any login page or other extra redundant features. I used Heroku to deploy my web application. For this project, I used tools including Git, XAAMP, MySQL Workbench, JawsDB and also PHP and MySQL for backend, HTML, CSS, JS, Bootstrap for frontend.",
           color: "#0071C5",
         },
-        {
-          title: "Linux developer Intern",
-          company: "Swecha",
-          company_url:
-            "https://swecha.org/",
-          logo_path: "logo2.png",
-          duration: "July 2020 - August 2020",
-          location: "Work From Home",
-          description:
-            "Built an Operating System for Engineering colleges in the state of Telangana that comes pre-installed with all the software an Engineer of any majors would require. The Operating System is based on Linux kernel and is made open-sourced in order to encourage other students contribute to the Operating System and learn more about Operating Systems.",
-          color: "#0071C5",
-        },
-
       ],
     },
     {
@@ -535,7 +506,6 @@ const experience = {
             "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Hyderabad city. We have built opensource community of our own college.",
           color: "#000000",
         },
-        
       ],
     },
   ],
@@ -558,22 +528,21 @@ const contactPageData = {
       "I am available on almost every social media. You can message me, I will try to reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Personal Blog",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://medium.com/@dantusaikamal",
+    link: "https://instagram.com/rithvikkk__/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Brundavan homes, Udyog nagar, Badangpet, Hyderabad.",
+    subtitle: "3-9-486, Bhavani Nagar Colony, Mansoorbad, LB Nagar, Hyderabad.",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MrWkeWdGNXXo7ozW8",
+    location_map_link: "",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9177114722",
+    subtitle: "+91 949977120",
   },
 };
 
