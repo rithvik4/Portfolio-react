@@ -44,11 +44,27 @@ export default function GithubRepoCard({ repo, theme }) {
               className="repo-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Created on {repo.createdAt.split("T")[0]}
+              Created on {repo && repo.createdAt ? repo.createdAt.split("T")[0] : "N/A"}
             </p>
+            {
+              // ProjectLanguages expects an array of logo objects with a `name` and `iconifyClass`.
+              // Our local `projects` data may provide languages as simple strings, so normalize here.
+            }
             <ProjectLanguages
               className="repo-languages"
-              logos={repo.languages}
+              logos={
+                Array.isArray(repo.languages)
+                  ? repo.languages.map((l) =>
+                      typeof l === "string"
+                        ? { name: l, iconifyClass: "" }
+                        : // if it's already an object, try to normalize common keys
+                          {
+                            name: l.name || l.skillName || "",
+                            iconifyClass: l.iconifyClass || l.iconifyClassname || "",
+                          }
+                    )
+                  : []
+              }
             />
           </div>
           {/* <div className="repo-stats">

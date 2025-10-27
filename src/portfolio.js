@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "Hi, I'm Rithvik Kumar, a Full Stack Developer 🚀 from Hyderabad, India. I'm currently working as a developer at KopenSoft Solutions, contributing to various projects and working on quite a few personal projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1A_ou2CMzGRgLUwI5jz2onjcF_GsKHYtG/view?usp=sharing",
+    "https://drive.google.com/file/d/167VDKWkr79ID4N9TbLgibcO382XhzV5m/view?usp=drive_link",
   portfolio_repository: "https://github.com/rithvik4/Portfolio-react",
 };
 
@@ -33,7 +33,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/bura-rithvik-kumar/",
+    link: "https://www.linkedin.com/in/bura-rithvik-kumar-130189194/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -519,11 +519,58 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const projects = {
+  data: [
+    {
+      id: "0",
+      name: "Image Encryption Using Python",
+      url: "https://github.com/rithvik4/image-encryption-usingpython",
+      description: "A Python-based image encryption tool that implements advanced encryption algorithms to secure image data.",
+      languages: ["Python", "Cryptography", "Image Processing"],
+    },
+    {
+      id: "1",
+      name: "Content Aggregator and Effective Summarization",
+      url: "https://github.com/rithvik4/content-aggregator-and-effective-summarization",
+      description: "An intelligent system that aggregates content from various sources and provides effective summarization using NLP techniques.",
+      languages: ["Python", "NLP", "Machine Learning"],
+    },
+    {
+      id: "2",
+      name: "Leaf Disease Identification",
+      url: "https://github.com/rithvik4/leaf-disease-identification",
+      description: "An AI-powered application that identifies plant diseases through leaf image analysis using computer vision and machine learning.",
+      languages: ["Python", "Machine Learning", "Computer Vision"],
+    },
+    {
+      id: "3",
+      name: "Money Tracker",
+      url: "https://github.com/rithvik4/money-tracker",
+      description: "A comprehensive financial tracking application to manage personal expenses and income with visualization features.",
+      languages: ["React", "JavaScript", "CSS"],
+    },
+    {
+      id: "4",
+      name: "React Password Generator",
+      url: "https://github.com/rithvik4/react-password-generator",
+      description: "A secure password generator built with React that creates strong, customizable passwords with various options.",
+      languages: ["React", "JavaScript", "CSS"],
+    },
+    {
+      id: "5",
+      name: "Movie Search Application",
+      url: "https://github.com/rithvik4/movie-search-application-using-TMDb-API",
+      description: "A responsive movie search application that uses the TMDb API to provide detailed information about movies and TV shows.",
+      languages: ["React", "JavaScript", "API Integration"],
+    }
+  ],
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "kamal1.jpg",
+    profile_image_path: "photo.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will try to reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -556,5 +603,6 @@ export {
   certifications,
   experience,
   projectsHeader,
+  projects,
   contactPageData,
 };
