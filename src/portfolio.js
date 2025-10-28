@@ -62,47 +62,6 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -148,7 +107,7 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
+          skillName: "NodeJs",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
             color: "#339933",
@@ -162,8 +121,8 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
             color: "#2C8EBB",
           },
@@ -174,6 +133,86 @@ const skills = {
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
             color: "#02569B",
+          },
+        },
+      ],
+    },
+    {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
+      title: "Data Science",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
@@ -227,45 +266,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -525,44 +525,52 @@ const projects = {
       id: "0",
       name: "Image Encryption Using Python",
       url: "https://github.com/rithvik4/image-encryption-usingpython",
-      description: "A Python-based image encryption tool that implements advanced encryption algorithms to secure image data.",
+      description:
+        "A Python-based image encryption tool that implements advanced encryption algorithms to secure image data.",
       languages: ["Python", "Cryptography", "Image Processing"],
     },
     {
       id: "1",
       name: "Content Aggregator and Effective Summarization",
-      url: "https://github.com/rithvik4/content-aggregator-and-effective-summarization",
-      description: "An intelligent system that aggregates content from various sources and provides effective summarization using NLP techniques.",
+      url:
+        "https://github.com/rithvik4/content-aggregator-and-effective-summarization",
+      description:
+        "An intelligent system that aggregates content from various sources and provides effective summarization using NLP techniques.",
       languages: ["Python", "NLP", "Machine Learning"],
     },
     {
       id: "2",
       name: "Leaf Disease Identification",
       url: "https://github.com/rithvik4/leaf-disease-identification",
-      description: "An AI-powered application that identifies plant diseases through leaf image analysis using computer vision and machine learning.",
+      description:
+        "An AI-powered application that identifies plant diseases through leaf image analysis using computer vision and machine learning.",
       languages: ["Python", "Machine Learning", "Computer Vision"],
     },
     {
       id: "3",
       name: "Money Tracker",
       url: "https://github.com/rithvik4/money-tracker",
-      description: "A comprehensive financial tracking application to manage personal expenses and income with visualization features.",
+      description:
+        "A comprehensive financial tracking application to manage personal expenses and income with visualization features.",
       languages: ["React", "JavaScript", "CSS"],
     },
     {
       id: "4",
       name: "React Password Generator",
       url: "https://github.com/rithvik4/react-password-generator",
-      description: "A secure password generator built with React that creates strong, customizable passwords with various options.",
+      description:
+        "A secure password generator built with React that creates strong, customizable passwords with various options.",
       languages: ["React", "JavaScript", "CSS"],
     },
     {
       id: "5",
       name: "Movie Search Application",
-      url: "https://github.com/rithvik4/movie-search-application-using-TMDb-API",
-      description: "A responsive movie search application that uses the TMDb API to provide detailed information about movies and TV shows.",
+      url:
+        "https://github.com/rithvik4/movie-search-application-using-TMDb-API",
+      description:
+        "A responsive movie search application that uses the TMDb API to provide detailed information about movies and TV shows.",
       languages: ["React", "JavaScript", "API Integration"],
-    }
+    },
   ],
 };
 
