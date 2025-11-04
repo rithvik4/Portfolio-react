@@ -9,6 +9,9 @@ class ProjectLanguages extends Component {
         <div className="software-skills-main-div">
           <ul className="dev-icons-languages">
             {this.props.logos.map((logo) => {
+              const hasIcon =
+                logo.iconifyClass && logo.iconifyClass.trim() !== "";
+
               return (
                 <OverlayTrigger
                   key={logo.name}
@@ -21,13 +24,17 @@ class ProjectLanguages extends Component {
                 >
                   <li
                     className="software-skill-inline-languages"
-                    name={logo.skillName}
+                    name={logo.skillName || logo.name}
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClass}
-                      data-inline="false"
-                    ></span>
+                    {hasIcon ? (
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClass}
+                        data-inline="false"
+                      ></span>
+                    ) : (
+                      <span className="language-text">{logo.name}</span>
+                    )}
                   </li>
                 </OverlayTrigger>
               );

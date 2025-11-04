@@ -14,9 +14,23 @@
   font-family: "Google Sans Regular";
 }
 
+.language-text {
+  font-size: 0.9rem;
+  padding: 5px 12px;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .software-skill-inline-languages {
     margin-right: 10px;
     margin-bottom: 0px;
+  }
+
+  .language-text {
+    font-size: 0.75rem;
+    padding: 4px 10px;
   }
 }

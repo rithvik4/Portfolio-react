@@ -44,6 +44,15 @@
   text-align: center;
 }
 
+.heading-sub-text.subTitle {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;
@@ -62,6 +71,13 @@
 
   .heading-sub-text {
     font-size: 20px;
+  }
+
+  .heading-sub-text.subTitle {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
   }
 
   .heading-div {

@@ -44,19 +44,23 @@ class Projects extends Component {
         </div>
         <div className="repo-cards-div-main">
           {projects.data.map((project) => {
-            return <GithubRepoCard 
-              key={project.id}
-              repo={{
-                name: project.name,
-                description: project.description,
-                url: project.url,
-                primaryLanguage: {
-                  name: project.languages[0],
-                  color: "#f1e05a"
-                }
-              }}
-              theme={theme}
-            />;
+            return (
+              <GithubRepoCard
+                key={project.id}
+                repo={{
+                  id: project.id,
+                  name: project.name,
+                  description: project.description,
+                  url: project.url,
+                  languages: project.languages,
+                  primaryLanguage: {
+                    name: project.languages[0],
+                    color: "#f1e05a",
+                  },
+                }}
+                theme={theme}
+              />
+            );
           })}
         </div>
         <Button

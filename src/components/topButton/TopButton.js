@@ -8,13 +8,16 @@ export default function TopButton({ theme }) {
   }
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 30 ||
-      document.documentElement.scrollTop > 30
-    ) {
-      document.getElementById("topButton").style.visibility = "visible";
-    } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+    const topButton = document.getElementById("topButton");
+    if (topButton) {
+      if (
+        document.body.scrollTop > 30 ||
+        document.documentElement.scrollTop > 30
+      ) {
+        topButton.style.visibility = "visible";
+      } else {
+        topButton.style.visibility = "hidden";
+      }
     }
   }
 
@@ -25,25 +28,33 @@ export default function TopButton({ theme }) {
   const onMouseEnter = (color, bgColor) => {
     /* For the button */
     const topButton = document.getElementById("topButton");
-    topButton.style.color = color;
-    topButton.style.backgroundColor = bgColor;
+    if (topButton) {
+      topButton.style.color = color;
+      topButton.style.backgroundColor = bgColor;
+    }
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
-    arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    if (arrow) {
+      arrow.style.color = color;
+      arrow.style.backgroundColor = bgColor;
+    }
   };
 
   const onMouseLeave = (color, bgColor) => {
     /* For the button */
     const topButton = document.getElementById("topButton");
-    topButton.style.color = color;
-    topButton.style.backgroundColor = bgColor;
+    if (topButton) {
+      topButton.style.color = color;
+      topButton.style.backgroundColor = bgColor;
+    }
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
-    arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    if (arrow) {
+      arrow.style.color = color;
+      arrow.style.backgroundColor = bgColor;
+    }
   };
 
   return (

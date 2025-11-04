@@ -33,8 +33,16 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Basic Qualification and Certifcations
                 </h3>
-                <p className="heading-sub-text" style={{ color: theme.text, fontSize: "1.1rem", marginTop: "10px" }}>
-                  I hold a Bachelor's degree in Computer Science and Engineering, which strengthened my foundation in programming, data structures, and software development. Alongside my degree, I completed certifications in Python, Data Processing, Business Analysis, and Machine Learning, enhancing my technical and analytical skills.
+                <p
+                  className="heading-sub-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  I hold a Bachelor's degree in Computer Science and
+                  Engineering, which strengthened my foundation in programming,
+                  data structures, and software development. Alongside my
+                  degree, I completed certifications in Python, Data Processing,
+                  Business Analysis, and Machine Learning, enhancing my
+                  technical and analytical skills.
                 </p>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
